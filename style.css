@@ -1,0 +1,30 @@
+
+body {
+    background: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+button, .btn {
+    background-color: #444;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover, .btn:hover {
+    background-color: #666;
+}
+.error {
+    color: red;
+}
